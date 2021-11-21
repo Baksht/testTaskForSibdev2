@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+}
+
+.masonryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.searchInfo {
+  margin-bottom: 30px;
+  display: flex;
+  font-family: sans-serif;
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.totalVideoCounter {
+  flex: 1;
+
+}
+
+.searchInfo button {
+  margin-left: auto;
+}
+
+.displayModeButton {
+  cursor: pointer;
+  height: 30px;
+}
+
+.searchInfo span {
+  margin-left: 15px;
+  color: rgba(0, 0, 0, 0.5)
+}

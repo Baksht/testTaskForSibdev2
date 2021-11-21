@@ -1,0 +1,55 @@
+$elementsColor: #0071f0;
+.wrapper {
+  padding: 50px 0px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+}
+
+.inputContainer {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 0px 12px;
+}
+
+.inputContainer input {
+  font-family: sans-serif;
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+
+}
+
+
+.addFavoriteButton {
+  cursor: pointer;
+}
+
+.searchButton {
+  width: 100px;
+  border:none;
+
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  background-color: $elementsColor;
+  outline: none;
+  cursor: pointer;
+  &:hover, &:focus {
+    background-color: rgba(0, 113, 240, 0.7);
+  }
+
+}
+
+
+

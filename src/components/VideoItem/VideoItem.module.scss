@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  margin: 0px 0px 20px 0px;
+  cursor: pointer;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+
+.masonryCard {
+  margin: 30px 0px;
+  display: block;
+  width: 320px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+.videoDescription {
+  margin: 0px 0px 0px 20px;
+}
+
+.videoTitle, .channelName {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.channelName {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.6)
+}
+
+
+

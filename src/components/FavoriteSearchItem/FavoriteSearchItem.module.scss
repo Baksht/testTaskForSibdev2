@@ -1,0 +1,56 @@
+$elementsColor: #0071f0;
+
+.container {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  box-sizing: border-box;
+
+}
+
+.editButton, .deleteButton, .searchButton {
+  margin: 0px 5px;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+
+  }
+
+}
+
+.editButton {
+  background-color: $elementsColor;
+
+  &:hover {
+    background: lighten($elementsColor, 5%);
+  }
+}
+
+.deleteButton {
+  background-color: darkred;
+
+  &:hover {
+    background: lighten(darkred, 5%);
+  }
+}
+
+.searchButton {
+  background-color: green;
+  &:hover {
+    background: lighten(green, 5%);
+  }
+}
+
+
